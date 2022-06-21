@@ -126,7 +126,7 @@ var Canvas = /** @class */ (function () {
      * @return String
      * */
     Canvas.prototype.toString = function () {
-        return "Image(" + this.width + ", " + this.height + ")";
+        return "Image(".concat(this.width, ", ").concat(this.height, ")");
     };
     /**
      * Converts image instance to a writable stream.
