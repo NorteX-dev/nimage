@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "axios": "^0.25.0",
+    "fs": "^0.0.1-security",
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/pngjs": "^6.0.1",
+    "prettier": "^2.6.2"
+  }
+}
